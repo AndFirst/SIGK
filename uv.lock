@@ -142,6 +142,22 @@ css = [
 ]
 
 [[package]]
+name = "brisque"
+version = "0.0.16"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "libsvm-official" },
+    { name = "numpy" },
+    { name = "opencv-python" },
+    { name = "scikit-image" },
+    { name = "scipy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/7b/f4/7f47afe23b9228aba4b91b7d34f56afd9b8c47454d193f2eeab8b743095a/brisque-0.0.16.tar.gz", hash = "sha256:10d9498a5f8b4f43660203ac2dfab11514d9937d9f09cb694805c8fd7e57b0a4", size = 141076 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/04/ca/31d0eaac691d01ac80fc9e903dc66616eb32ae6615fcefc90c1259917355/brisque-0.0.16-py3-none-any.whl", hash = "sha256:2abfb0ecbb8d392e4d8697d55854087a74cbf51bd2f7fee9bd39c1e6f2277683", size = 140097 },
+]
+
+[[package]]
 name = "certifi"
 version = "2025.1.31"
 source = { registry = "https://pypi.org/simple" }
@@ -881,6 +897,15 @@ sdist = { url = "https://files.pythonhosted.org/packages/6f/6b/c875b30a1ba490860
 wheels = [
     { url = "https://files.pythonhosted.org/packages/83/60/d497a310bde3f01cb805196ac61b7ad6dc5dcf8dce66634dc34364b20b4f/lazy_loader-0.4-py3-none-any.whl", hash = "sha256:342aa8e14d543a154047afb4ba8ef17f5563baad3fc610d7b15b213b0f119efc", size = 12097 },
 ]
+
+[[package]]
+name = "libsvm-official"
+version = "3.35.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "scipy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/fa/24/09d84165dfcefa768e6e5e49aef8925a1d8dea4629646e6191c0b9bae424/libsvm_official-3.35.0.tar.gz", hash = "sha256:3432bb74ea9c1e0c0553fc5079f1e8a703307489d3e9ffd4adcf0152d38d6966", size = 39796 }
 
 [[package]]
 name = "lightning-utilities"
@@ -1787,6 +1812,7 @@ name = "sigk"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "brisque" },
     { name = "ipykernel" },
     { name = "jupyter" },
     { name = "lpips" },
@@ -1802,6 +1828,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "brisque", specifier = ">=0.0.16" },
     { name = "ipykernel", specifier = ">=6.29.5" },
     { name = "jupyter", specifier = ">=1.1.1" },
     { name = "lpips", specifier = ">=0.1.4" },
