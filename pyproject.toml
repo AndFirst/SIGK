@@ -10,6 +10,7 @@ dependencies = [
     "jupyter>=1.1.1",
     "lpips>=0.1.4",
     "matplotlib>=3.10.1",
+    "medmnist>=3.0.2",
     "opencv-python>=4.11.0.86",
     "pdfkit>=1.0.0",
     "pip>=25.0.1",
