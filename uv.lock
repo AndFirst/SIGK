@@ -420,6 +420,30 @@ wheels = [
 ]
 
 [[package]]
+name = "glcontext"
+version = "3.0.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/3a/80/8238a0e6e972292061176141c1028b5e670aa8c94cf4c2f819bd730d314e/glcontext-3.0.0.tar.gz", hash = "sha256:57168edcd38df2fc0d70c318edf6f7e59091fba1cd3dadb289d0aa50449211ef", size = 16422 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/6e/61/d8f77d44bbf477b235ecbff8d421a5511d4b4f6dc676dacd84d012348516/glcontext-3.0.0-cp312-cp312-macosx_10_9_x86_64.whl", hash = "sha256:848f870a2bc72a29de7ab6756b9e8f2e6ce052e17873ebc6b3f25129b6e0d58a", size = 9360 },
+    { url = "https://files.pythonhosted.org/packages/de/46/680a97d974cfe7af798542918b65bd8e65a5f8f7647edfd9fdb91a95df6c/glcontext-3.0.0-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:4b3b12a66f57379566dd4d36899ac265abdbe040f3fc3293f50cd6678a1dcc9b", size = 9733 },
+    { url = "https://files.pythonhosted.org/packages/74/2c/be188c4eb63b4d0cc74c644a1519b5e3a37488da3cbda724570cd5fed8d3/glcontext-3.0.0-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:449eaefd89c0519900715b8363ead59ac4aa32457722ca521ce01297441edb34", size = 50409 },
+    { url = "https://files.pythonhosted.org/packages/32/ba/9ccb80650e5bd61e739f16f33aec3bb290a80f314631be8f7dc0a2b22b5f/glcontext-3.0.0-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:04921720740438ceea8fb8a38b5665963520c7c8f27bef03df8aeb3ea3cfbfb6", size = 51440 },
+    { url = "https://files.pythonhosted.org/packages/c0/99/f6c9a0e614809ba5b83bd8403c475b788bd574d694bd5bc6b6ae2e2cefdf/glcontext-3.0.0-cp312-cp312-musllinux_1_2_i686.whl", hash = "sha256:25538bdb106f673638d70e8a16a0c037a92a24c4cf40a05f0d3fa14b483d6194", size = 44820 },
+    { url = "https://files.pythonhosted.org/packages/a2/29/fdbb94e4c9374390639b741774384f7413efcd7634cc9c4baacc2cf00a1f/glcontext-3.0.0-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:d11f7701b900a5a34c994e1d91c547be1cc469b73f881471460fd905f69f9e4c", size = 47055 },
+    { url = "https://files.pythonhosted.org/packages/5d/fe/25b5348fe5e856697dacad34fc07e80f48eecfb38bd09806679fe0e62769/glcontext-3.0.0-cp312-cp312-win32.whl", hash = "sha256:5d2b567eaf34adb016aadce81fd2f1d4c8e4a39e3d6f2a395ce528e2a350dd3f", size = 12219 },
+    { url = "https://files.pythonhosted.org/packages/17/d3/6619693ddad97011ca1c9aaeb82216ab2bfd54757be752b12f4e9a2fc489/glcontext-3.0.0-cp312-cp312-win_amd64.whl", hash = "sha256:e80bb37ba727bd20c192f2754aea40c437a7665005c1001c10752f91913964e9", size = 12971 },
+    { url = "https://files.pythonhosted.org/packages/12/be/0ef6a6710164fde818040238b041b02a082a2b9d210f18632ab2354d863e/glcontext-3.0.0-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:5bd37089570d3cdb01c6c0b315c49ce8a4dcdab2c431f5ba9f37a8b633cebfdf", size = 9366 },
+    { url = "https://files.pythonhosted.org/packages/b9/d7/c3220898d72fbf938660ba5789c19cf245d21b45802a5d86cbcc67d66413/glcontext-3.0.0-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:857fd83e60f15580afd369dfb651a10d84a70ec35995622d253551bfb3ff9477", size = 9735 },
+    { url = "https://files.pythonhosted.org/packages/74/c1/2d57062d2f2f6e55c58b12bdeab2a39b209f959df32039d099ecdfe96bf7/glcontext-3.0.0-cp313-cp313-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:93fda9b378ce6d91f366e83e71ebdafdd167280a9834d1d6341ce6457c4e42ed", size = 50166 },
+    { url = "https://files.pythonhosted.org/packages/03/4d/7fee00c76d678b06529e939ab6f3e3190af30208fe2e984526899026a437/glcontext-3.0.0-cp313-cp313-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:89ad50d34aa62f03f6aaf6ae39fc27afd1b0eaefb0281aac51f686dc5672d473", size = 51186 },
+    { url = "https://files.pythonhosted.org/packages/f0/58/dc9a56192b889587e51ea511804bad5dec816de81ce16831db9fe19d5c40/glcontext-3.0.0-cp313-cp313-musllinux_1_2_i686.whl", hash = "sha256:2634d5e9647a6d7b0c5a5c0c57e91ac98aa79759bffb42459af4374b049fab01", size = 44658 },
+    { url = "https://files.pythonhosted.org/packages/aa/ed/acb12e67589deaa96ad29d6994c2b9383afd18700f4f2a42ff342628aac5/glcontext-3.0.0-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:0140c5df37cb48271527355062d35589dc3e1e7e73b51adf9962ed5048115f69", size = 46882 },
+    { url = "https://files.pythonhosted.org/packages/e0/6d/033ba23466d596c945f5f31f5c4e50cba3bc6664fdee58f6ceab54b76f4b/glcontext-3.0.0-cp313-cp313-win32.whl", hash = "sha256:6678e0552b516fa8fe62f500ef2b953bec991e82a003be2a9840d16556d03d2e", size = 12220 },
+    { url = "https://files.pythonhosted.org/packages/53/b4/f0e0860526b8661ec6ae2b25a15b61100e551f57f488613c564752173a56/glcontext-3.0.0-cp313-cp313-win_amd64.whl", hash = "sha256:18aa4b1df50e8c8ea39bd0f775f39bcc987521f92c4ed019ec7d70078471354d", size = 12971 },
+]
+
+[[package]]
 name = "h11"
 version = "0.14.0"
 source = { registry = "https://pypi.org/simple" }
@@ -476,6 +500,35 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/0c/47/57e897fb7094afb2d26e8b2e4af9a45c7cf1a405acdeeca001fdf2c98501/imageio-2.37.0.tar.gz", hash = "sha256:71b57b3669666272c818497aebba2b4c5f20d5b37c81720e5e1a56d59c492996", size = 389963 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/cb/bd/b394387b598ed84d8d0fa90611a90bee0adc2021820ad5729f7ced74a8e2/imageio-2.37.0-py3-none-any.whl", hash = "sha256:11efa15b87bc7871b61590326b2d635439acc321cf7f8ce996f812543ce10eed", size = 315796 },
+]
+
+[[package]]
+name = "imbalanced-learn"
+version = "0.13.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "joblib" },
+    { name = "numpy" },
+    { name = "scikit-learn" },
+    { name = "scipy" },
+    { name = "sklearn-compat" },
+    { name = "threadpoolctl" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/3c/61/3c121d506fe3d40a9117ef9b685fb94ffdf7b40d7ba6e1516afa11e4aa45/imbalanced_learn-0.13.0.tar.gz", hash = "sha256:d4a8d6372086982350d6de1c7e5b1ed5ece9e41bf93043b4d0e9ea1c422a6606", size = 531907 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/9d/41/721fec82606242a2072ee909086ff918dfad7d0199a9dfd4928df9c72494/imbalanced_learn-0.13.0-py3-none-any.whl", hash = "sha256:7eb5859f7827cb3babfa5789978c22fe36e56527d9c9768df2d864d98d9b40fe", size = 238383 },
+]
+
+[[package]]
+name = "imblearn"
+version = "0.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "imbalanced-learn" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/32/0a/f83099534a77757abf27427d339590c83cc68c3386690d4741d6454e185f/imblearn-0.0.tar.gz", hash = "sha256:d8fbb662919c1b16f438ad91a8256220e53bcf6815c9ad5502c518b798de34f2", size = 945 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/81/a7/4179e6ebfd654bd0eac0b9c06125b8b4c96a9d0a8ff9e9507eb2a26d2d7e/imblearn-0.0-py2.py3-none-any.whl", hash = "sha256:d42c2d709d22c00d2b9a91e638d57240a8b79b4014122d92181fcd2549a2f79a", size = 1874 },
 ]
 
 [[package]]
@@ -1072,12 +1125,64 @@ wheels = [
 ]
 
 [[package]]
+name = "moderngl"
+version = "5.12.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "glcontext" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/da/52/540e2f8c45060bb2709f56eb5a44ae828dfcc97ccecb342c1a7deb467889/moderngl-5.12.0.tar.gz", hash = "sha256:52936a98ccb2f2e1d6e3cb18528b2919f6831e7e3f924e788b5873badce5129b", size = 193232 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/3c/66/31161e81bc85ca3cdbb9d94f703f21575e4ae9a2919e9d1af98fc7fdb1ba/moderngl-5.12.0-cp312-cp312-macosx_10_13_x86_64.whl", hash = "sha256:2750547707c1ec3790dfbeb9c90fb808672ff13f61cac392c706ba09fda10db0", size = 112101 },
+    { url = "https://files.pythonhosted.org/packages/84/b2/7229a89a40d33a95119a7c64c7ee36a6a6e376c57c39fb577ea513602f37/moderngl-5.12.0-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:c5c2a5fe06c7021183d9274df798f25516409c8d55898c324dae8a0b2de10144", size = 109377 },
+    { url = "https://files.pythonhosted.org/packages/d7/96/bcb5141eae24474d80b8157b0c3055d25fa75f9804d4abb4a514695bbba9/moderngl-5.12.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:b6c4972f3ddd10a3de6c30311da2c25bc493d023796e16c5d4e0f8bd6d5770be", size = 296394 },
+    { url = "https://files.pythonhosted.org/packages/b8/79/a9998ddf6757f4f15888b0a106d80a64a8c8991a8ce5c14047830704b9e6/moderngl-5.12.0-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:a4d497ec6a3f6afa9ebd0be816d9bfe2fe20fec2105acfb88d956619c3ed8eb4", size = 270548 },
+    { url = "https://files.pythonhosted.org/packages/17/f4/313dc301db936b231035b961e004f1914c2954bdcdf4985e24bff15e7ed5/moderngl-5.12.0-cp312-cp312-musllinux_1_2_i686.whl", hash = "sha256:2f3d240e9bc5d83257378bae59f8f35638b89d22bb003cf674b88fd7932161ce", size = 1345817 },
+    { url = "https://files.pythonhosted.org/packages/8c/6f/7b3587e7e3ae633b8c85038f035dfeb348ebf805de4beb01241c59c6b97c/moderngl-5.12.0-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:6fa667d560d842e778e2a5968305fb78f9781616a11b1b93acd2562f97262ccf", size = 1274968 },
+    { url = "https://files.pythonhosted.org/packages/4f/e8/0f3b3cd1be7b0a93f33dc613f76a42021d1393b4949c5b6a1ca2a01c6772/moderngl-5.12.0-cp312-cp312-win32.whl", hash = "sha256:0a02fddd54dccee1ca6060bfed75a2e6a17dd3ee06920fac418506d8a8233849", size = 101221 },
+    { url = "https://files.pythonhosted.org/packages/56/85/35498b1821cf31c731b1882168db8924207ff3c06d8f0da53e1cc373a89d/moderngl-5.12.0-cp312-cp312-win_amd64.whl", hash = "sha256:8698a59ad03539a2982125b7998efc1c107ba31d5d03437b6fcd72cb2c226922", size = 108525 },
+    { url = "https://files.pythonhosted.org/packages/39/13/cf493bdc3cb4f7a6b4fb357e683404dc8a97d19f53d501e4afdd679538e2/moderngl-5.12.0-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:f6efb432f5164f871471d1da36e3a4be9dc3efd7a1e48d0ac6b751e556af5d02", size = 112118 },
+    { url = "https://files.pythonhosted.org/packages/a9/1f/1d84bba5f42fb19ce240d08d5434fe8e2f34341e68bb9fa89336b6cbdcfc/moderngl-5.12.0-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:9b09d8d15b2eaab41c8646a664429ec86af225fa25096758497cd212489d2e1e", size = 109371 },
+    { url = "https://files.pythonhosted.org/packages/be/ae/bda0b95878e2b36eac66f64d88c08e6c8ea759607f7d40e843a21c2f4f32/moderngl-5.12.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:071042dd4846e58cbe204cf49341b62cd209fdcb6d48018feb5a61c66707fcb2", size = 296206 },
+    { url = "https://files.pythonhosted.org/packages/28/bc/93dc73251bcdb9c0f6f5c9a1d97ec2134672c307c68e6106948eab1f73d4/moderngl-5.12.0-cp313-cp313-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:91db8302ac7f5d7a82a967388677e1378ff078f1e16d05da37ce77f4633b93b1", size = 270443 },
+    { url = "https://files.pythonhosted.org/packages/2e/a1/bd72c788b16c2392d3e1ebb570e56d7f871eaa1854f57917c0f131acb365/moderngl-5.12.0-cp313-cp313-musllinux_1_2_i686.whl", hash = "sha256:51971d65ec96a212a814350c8b324ae0754353e1b61826d1a06aa2d060df170e", size = 1345675 },
+    { url = "https://files.pythonhosted.org/packages/b2/ec/6aff8fa267d9f80e4d32b7a606fdf9f0563103441a7dbaa4f53e272a4ada/moderngl-5.12.0-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:d56827360c19e831e986243b5daaf6a51006f1ec0d5372084ad446308763d19f", size = 1274906 },
+    { url = "https://files.pythonhosted.org/packages/9f/4d/dc3ff763c125080e71b1095875f5dcc80949402019abc073bdfdbed1f4c2/moderngl-5.12.0-cp313-cp313-win32.whl", hash = "sha256:caa432c12b138a6c9571719075c4d103bdc2504cd31aeda38a00ad10fcf268cb", size = 101215 },
+    { url = "https://files.pythonhosted.org/packages/2c/8b/0a264732e0ee49fca109e98ec28f4d0c326ffc31466aa6e9668e8961aabb/moderngl-5.12.0-cp313-cp313-win_amd64.whl", hash = "sha256:e34d1cd38f7998258f76a08bb5e87f351ec653b7ea1928b2711f8719c10cefd1", size = 108514 },
+]
+
+[[package]]
+name = "moderngl-window"
+version = "3.1.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "moderngl" },
+    { name = "numpy" },
+    { name = "pillow" },
+    { name = "pyglet" },
+    { name = "pyglm" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/90/02/92e235891300c901f59647112a0267a07454f58aeb2041aa44f6b85f9cb3/moderngl_window-3.1.1.tar.gz", hash = "sha256:29c2827505f87399f3461d480b2778910fddeebe44ea803301215cf212a6c1bc", size = 353495 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/23/41/d3503f07de8ad3597165f88b07e1064629f82e65385c4307875b2f6b137f/moderngl_window-3.1.1-py3-none-any.whl", hash = "sha256:e3b3ac2b4e23afcbfdac1971318a4db893bed3ba6a8fbde3367b1226af39b2e5", size = 382381 },
+]
+
+[[package]]
 name = "mpmath"
 version = "1.3.0"
 source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/e0/47/dd32fa426cc72114383ac549964eecb20ecfd886d1e5ccf5340b55b02f57/mpmath-1.3.0.tar.gz", hash = "sha256:7a28eb2a9774d00c7bc92411c19a89209d5da7c4c9a9e227be8330a23a25b91f", size = 508106 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/43/e3/7d92a15f894aa0c9c4b49b8ee9ac9850d6e63b03c9c32c0367a13ae62209/mpmath-1.3.0-py3-none-any.whl", hash = "sha256:a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c", size = 536198 },
+]
+
+[[package]]
+name = "multipledispatch"
+version = "1.0.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/fe/3e/a62c3b824c7dec33c4a1578bcc842e6c30300051033a4e5975ed86cc2536/multipledispatch-1.0.0.tar.gz", hash = "sha256:5c839915465c68206c3e9c473357908216c28383b425361e5d144594bf85a7e0", size = 12385 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/51/c0/00c9809d8b9346eb238a6bbd5f83e846a4ce4503da94a4c08cb7284c325b/multipledispatch-1.0.0-py3-none-any.whl", hash = "sha256:0c53cd8b077546da4e48869f49b13164bebafd0c2a5afceb6bb6a316e7fb46e4", size = 12818 },
 ]
 
 [[package]]
@@ -1565,6 +1670,49 @@ wheels = [
 ]
 
 [[package]]
+name = "pyglet"
+version = "2.1.5"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/e9/b1/d8b9971c508891cff37178836f00d009d5819a6d7989a9361c1249e4a44d/pyglet-2.1.5.tar.gz", hash = "sha256:98a04dd79a1c72825a2c067bdfcba478a6d70e2892d06ee95a63ad82efd9f103", size = 6546485 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/ef/e0/41a4dc6b1ed0fc129b04c4506989a9f61badd3a07cc8ae24fdbe020cd2c7/pyglet-2.1.5-py3-none-any.whl", hash = "sha256:93eb1de430ea99acaea4aa1969f9a3d0e0842efa2b050fee3e621cfd9c872b99", size = 983966 },
+]
+
+[[package]]
+name = "pyglm"
+version = "2.8.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/e1/19/9e9871a2cc8b3c26e57525a3233a5d75c4198c6cc7d63b62059b805fe531/pyglm-2.8.2.tar.gz", hash = "sha256:b4847b0b60888b5c649b17b0a72d1f3f1ee07086cd5f431a7d977fad3cdbadab", size = 584193 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/2e/d0/565bbf8e4d252bd562c7e9032dcb1980821e96a027b142d85089ef7c1d24/pyglm-2.8.2-cp312-cp312-macosx_10_13_x86_64.whl", hash = "sha256:cd1adae33ea6c50ec057eb9701dda913459207f942484263f0d9c3b813b660c2", size = 1631590 },
+    { url = "https://files.pythonhosted.org/packages/c8/48/54d27e2528bfd728b568a66c4a6db357306daa9c12127d57ae28e26932ea/pyglm-2.8.2-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:5692aa3940ce1351c7963203d29ceb051a2f83a0721b2796cb18860f01dafc7e", size = 1366462 },
+    { url = "https://files.pythonhosted.org/packages/1a/7b/36751a2e787f157e537222a2a460fc2ca52ae8368292dd9c98ca078e0ead/pyglm-2.8.2-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:c90c07472602952dbd9f7f745c1212fa73fbb8913af02b70a2d3f04ee5afd3e7", size = 12155521 },
+    { url = "https://files.pythonhosted.org/packages/20/24/5b854fd170a8edcf2ca71d8cac4b9634dfde5763fab54fa178cac4292cee/pyglm-2.8.2-cp312-cp312-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:edbc51eef30a79019649669c0d98d9295f6e370570a7767426aaa8452d5b9d46", size = 11584844 },
+    { url = "https://files.pythonhosted.org/packages/06/ba/18314b4e82a1d8af3434cf146df1500888b7d69e3810f214f4d8d6bf3bb1/pyglm-2.8.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:ad5f6b40f391bf7b4fd5256b4153ff955ef497638fa24bec0d21bac27a210947", size = 12785401 },
+    { url = "https://files.pythonhosted.org/packages/ea/53/5d0410d1c4bce24f4689d5a7ea2208f264ce7c555db6a1d2b94e0ef718be/pyglm-2.8.2-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:40f088c4e5287c565d9295895feead6b747a0ddbada91088e18383737b328fed", size = 11692669 },
+    { url = "https://files.pythonhosted.org/packages/8e/fa/483e7a5586e0eb5ffc7e07cc76afa47839fcb11563e86e4298aa67a66ed7/pyglm-2.8.2-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:3a0765a4ed676431627541a4561b36fa95b01823a488f291141de48f412e44b7", size = 12214669 },
+    { url = "https://files.pythonhosted.org/packages/75/d3/7aadea7c9ebb08d5c91567e355d9545549a0baeab6ebe5c3af465ddf3f0b/pyglm-2.8.2-cp312-cp312-musllinux_1_2_aarch64.whl", hash = "sha256:3271dca306c17d5ba70820125424fba5b4a5d3d3ea5b2a9d28a468bb86ee8e15", size = 11961578 },
+    { url = "https://files.pythonhosted.org/packages/a5/c5/3933fd9d48ea6830f997f5cbeba94ac254544cc9c6840c8a4c0c0bc30645/pyglm-2.8.2-cp312-cp312-musllinux_1_2_i686.whl", hash = "sha256:aa4168a8332116f8c8cd353b908eb96ccc7c5824dda0e44e072e623612f0e202", size = 12083209 },
+    { url = "https://files.pythonhosted.org/packages/86/99/a1b5d3f8e660f6ed68906231e5a32e3cfbfaceda7b7f8d900c633660b81d/pyglm-2.8.2-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:7e9d895e6697ff318b8c9b80dde957744cbfbeb0d22e61fce64906a3fe1f4bff", size = 12663119 },
+    { url = "https://files.pythonhosted.org/packages/70/f0/0030756d96047d04ba541ff7ff9bbeb04d027067d58d0720a5e61e3b3003/pyglm-2.8.2-cp312-cp312-win32.whl", hash = "sha256:b6ec9dc9e12a4e1d2cb2c91656e59eb1f30309b2882e6e354ce437ff5f7610f3", size = 1301589 },
+    { url = "https://files.pythonhosted.org/packages/d2/e2/3657590a0c67062476ce4948b7db25f6acb615f910728f5c7ba10a8e0e9a/pyglm-2.8.2-cp312-cp312-win_amd64.whl", hash = "sha256:7968f3b047ee9b8d5ab8707c81371015f523385480a1bfe73eaf3d6e39e74db7", size = 1664221 },
+    { url = "https://files.pythonhosted.org/packages/d4/ef/a3c53dd7eca7e0c552555f9744708a3566b0c2b86572a2cdb3cd824e19d3/pyglm-2.8.2-cp312-cp312-win_arm64.whl", hash = "sha256:db87fa313e341ef527b5376633b241e6f5ba4deb28feb8f19f11c9396fd88a42", size = 1237833 },
+    { url = "https://files.pythonhosted.org/packages/7e/e7/9a6e796eae5ff4810750e5e31e949527381d547b76ee06faad08d7fbf0b1/pyglm-2.8.2-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:a3c3f67f229f22b37a7076e36fd432795935cc1db25b7e133ae0ca1f7a9cbbb5", size = 1631601 },
+    { url = "https://files.pythonhosted.org/packages/72/a6/6dacd84e4fdb1a91139a475a59733e011dd7b4f26c873144c42ff0b01562/pyglm-2.8.2-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:d9cd5b3189e6f78a8095e33e4f22b274c16a468dd074169efcfee4711ccb6c9a", size = 1366459 },
+    { url = "https://files.pythonhosted.org/packages/11/c1/4ddac0b22ab212944a6e310e86adc8a68db5232f026e63453edef7ffc6b8/pyglm-2.8.2-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:a46be69db5fb3421cb49cb0eb18080db62cb6f38322ab50ceac126f341128ad1", size = 12157047 },
+    { url = "https://files.pythonhosted.org/packages/e2/c6/532ae80542c189651ae447c13d675c0fec9220435db4a98964fd97ed81ed/pyglm-2.8.2-cp313-cp313-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:094bd832748ca0f2a21b4fb20752a98e1d85353bdb7526c51ce9d3c08a23991a", size = 11585459 },
+    { url = "https://files.pythonhosted.org/packages/ae/93/d858c4111491199b7176dfe27f035bbecfa0a88f2d2543695a803e9730e3/pyglm-2.8.2-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:e69b938f6de1679a7ad5019ee3896cb4aec9dde90c617bef8a7d0d718a1f1e4d", size = 12787951 },
+    { url = "https://files.pythonhosted.org/packages/f2/23/9884bb40767483760cb35190a2fbca7ed1f85879fb10aaa2f03fa4542805/pyglm-2.8.2-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:fa2d1511b7b04cb0a69c09f75d0b7f649c7809d3a3462abdc6745dd212b956a1", size = 11693382 },
+    { url = "https://files.pythonhosted.org/packages/57/3e/1f93ceeccc7dfda62668a23746068b97481cd0ec9b3f28400a2d1123a557/pyglm-2.8.2-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:77f6b401007d5babbc6a328cb85b6d23f180e37f1a44b4516d8274f48acae0cf", size = 12216551 },
+    { url = "https://files.pythonhosted.org/packages/fb/31/dbd0458b23faaff1ba6954da9cd4fb29346800eaf1f0be0f2d07490f5edc/pyglm-2.8.2-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:402c0a4de35cc55ef9b27a463abcc3d8ff0fe5a6a3cc1b2d403c9d554e7dae0e", size = 11963324 },
+    { url = "https://files.pythonhosted.org/packages/80/b2/2c3b9335c8ccfb8e22a5ada7d843cd8b49851cc2a7542adfe5c313f1a18a/pyglm-2.8.2-cp313-cp313-musllinux_1_2_i686.whl", hash = "sha256:01db79724c736846105162b9cb89c1a9262fd5b3a87239e06dbb977e83f071ce", size = 12085789 },
+    { url = "https://files.pythonhosted.org/packages/78/60/125c09cceb467497e8fe76b3a3dc8c7d312a5a526a5b899ffa0139b7992f/pyglm-2.8.2-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:24957473986f26e907e17734e25761cee32475476a071976049b9b86aaad30ed", size = 12664229 },
+    { url = "https://files.pythonhosted.org/packages/dd/54/f10d9e95c98b2806e898a81755c447efc81983b62d1a5e4501419b902173/pyglm-2.8.2-cp313-cp313-win32.whl", hash = "sha256:9cf869167f18251a554fbf54b2f65af31803a428a2b6e46b975b429a0e973ff8", size = 1301598 },
+    { url = "https://files.pythonhosted.org/packages/c6/c0/23445245d9dbbc3ff8c45061f6c9b5dd679a53604b38026e11a3df193ff2/pyglm-2.8.2-cp313-cp313-win_amd64.whl", hash = "sha256:6a492dc524f3bffb27c47d9fc62afc690379ea311f1b9543487efe3869a3e1ae", size = 1664239 },
+    { url = "https://files.pythonhosted.org/packages/5d/9b/68e2449c5a9db968f3efe138d68df0ad387774c0f3b60f361b5b270ccc9c/pyglm-2.8.2-cp313-cp313-win_arm64.whl", hash = "sha256:a200ec556f31a1936aefc88baa4cd7e01d011ae83a250f74876548247e1c5add", size = 1237836 },
+]
+
+[[package]]
 name = "pygments"
 version = "2.19.1"
 source = { registry = "https://pypi.org/simple" }
@@ -1580,6 +1728,19 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/8b/1a/3544f4f299a47911c2ab3710f534e52fea62a633c96806995da5d25be4b2/pyparsing-3.2.1.tar.gz", hash = "sha256:61980854fd66de3a90028d679a954d5f2623e83144b5afe5ee86f43d762e5f0a", size = 1067694 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/1c/a7/c8a2d361bf89c0d9577c934ebb7421b25dc84bf3a8e3ac0a40aed9acc547/pyparsing-3.2.1-py3-none-any.whl", hash = "sha256:506ff4f4386c4cec0590ec19e6302d3aedb992fdc02c761e90416f158dacf8e1", size = 107716 },
+]
+
+[[package]]
+name = "pyrr"
+version = "0.10.3"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "multipledispatch" },
+    { name = "numpy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/e5/7f/2af23f61340972116e4efabc3ac6e02c8bad7f7315b3002c278092963f17/pyrr-0.10.3.tar.gz", hash = "sha256:3c0f7b20326e71f706a610d58f2190fff73af01eef60c19cb188b186f0ec7e1d", size = 64845 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/80/d4/09bb74e93f9f677eadcf9ddb92681755f75e0f354a1b904f1913e32ca1b2/pyrr-0.10.3-py3-none-any.whl", hash = "sha256:d8af23fb9bb29262405845e1c98f7339fbba5e49323b98528bd01160a75c65ac", size = 46790 },
 ]
 
 [[package]]
@@ -1610,6 +1771,14 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/f8/bf/abbd3cdfb8fbc7fb3d4d38d320f2441b1e7cbe29be4f23797b4a2b5d8aac/pytz-2025.2.tar.gz", hash = "sha256:360b9e3dbb49a209c21ad61809c7fb453643e048b38924c765813546746e81c3", size = 320884 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/81/c4/34e93fe5f5429d7570ec1fa436f1986fb1f00c3e0f43a589fe2bbcd22c3f/pytz-2025.2-py2.py3-none-any.whl", hash = "sha256:5ddf76296dd8c44c26eb8f4b6f35488f3ccbf6fbbd7adee0b7262d43f0ec2f00", size = 509225 },
+]
+
+[[package]]
+name = "pywavefront"
+version = "1.3.3"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/fe/f2/db25754f3d7f948e1cb7191a393284e29bc2497dae9d8456cbf25ddac671/PyWavefront-1.3.3-py3-none-any.whl", hash = "sha256:ec79cadd046b168434b01031e574f4105f821d06cb8cf754801e4dc18076bbeb", size = 28842 },
 ]
 
 [[package]]
@@ -1922,14 +2091,19 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "brisque" },
+    { name = "imblearn" },
     { name = "ipykernel" },
     { name = "jupyter" },
     { name = "lpips" },
     { name = "matplotlib" },
     { name = "medmnist" },
+    { name = "moderngl" },
+    { name = "moderngl-window" },
     { name = "opencv-python" },
     { name = "pdfkit" },
     { name = "pip" },
+    { name = "pyrr" },
+    { name = "pywavefront" },
     { name = "scikit-image" },
     { name = "torch" },
     { name = "torchmetrics" },
@@ -1939,14 +2113,19 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "brisque", specifier = ">=0.0.16" },
+    { name = "imblearn", specifier = ">=0.0" },
     { name = "ipykernel", specifier = ">=6.29.5" },
     { name = "jupyter", specifier = ">=1.1.1" },
     { name = "lpips", specifier = ">=0.1.4" },
     { name = "matplotlib", specifier = ">=3.10.1" },
     { name = "medmnist", specifier = ">=3.0.2" },
+    { name = "moderngl", specifier = ">=5.12.0" },
+    { name = "moderngl-window", specifier = ">=3.1.1" },
     { name = "opencv-python", specifier = ">=4.11.0.86" },
     { name = "pdfkit", specifier = ">=1.0.0" },
     { name = "pip", specifier = ">=25.0.1" },
+    { name = "pyrr", specifier = ">=0.10.3" },
+    { name = "pywavefront", specifier = ">=1.3.3" },
     { name = "scikit-image", specifier = ">=0.25.2" },
     { name = "torch", specifier = ">=2.6.0" },
     { name = "torchmetrics", specifier = ">=1.6.3" },
@@ -1960,6 +2139,18 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/94/e7/b2c673351809dca68a0e064b6af791aa332cf192da575fd474ed7d6f16a2/six-1.17.0.tar.gz", hash = "sha256:ff70335d468e7eb6ec65b95b99d3a2836546063f63acc5171de367e834932a81", size = 34031 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl", hash = "sha256:4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274", size = 11050 },
+]
+
+[[package]]
+name = "sklearn-compat"
+version = "0.1.3"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "scikit-learn" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/23/7e/c5b43911ca5813eadfe1fd3f0a5e97f4f23c5006fba935b1172f350b4d17/sklearn_compat-0.1.3.tar.gz", hash = "sha256:74f8267613249d599aa3a2f2503af32fa51bce0800b1b0b0a57b52354402454e", size = 65857 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/f0/a8/ad69cf130fbd017660cdd64abbef3f28135d9e2e15fe3002e03c5be0ca38/sklearn_compat-0.1.3-py3-none-any.whl", hash = "sha256:a8aaf8ef711988cbd63f187c5560b5f16b25df663aaa1d2d0e1291341d339f80", size = 18995 },
 ]
 
 [[package]]
