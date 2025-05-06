@@ -32,7 +32,7 @@ class PhongWindow(BaseWindow):
         df.to_csv(csv_path, index=False)
 
     def on_render(self, time: float, frame_time: float):
-        if self.frame > self.frame_count:
+        if self.frame >= self.frame_count:
             self.save_frame_parameters()
             raise RuntimeError("I AM DONE")
 
