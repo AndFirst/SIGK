@@ -377,6 +377,30 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/6b/b6/82c7e601d6d3c3278c40b7bd35e17e82aa227f050aa9f66cb7b7fce29471/fire-0.7.0.tar.gz", hash = "sha256:961550f07936eaf65ad1dc8360f2b2bf8408fad46abbfa4d2a3794f8d2a95cdf", size = 87189 }
 
 [[package]]
+name = "flip-evaluator"
+version = "1.6.0.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/3b/f2/2c1d3e12963c53bb9310dd516efe409cd08143a853427b7dfe51673f8162/flip-evaluator-1.6.0.1.tar.gz", hash = "sha256:d4086cc702836c7694d258d673576236255bfd0fd7689d0cf26b6236d23c6fb7", size = 243675 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/54/ff/e12f1cd454657cff41f1cc57082fcc2cc2f8402c55e20a3361bc728e842f/flip_evaluator-1.6.0.1-cp312-cp312-macosx_10_15_x86_64.whl", hash = "sha256:dbce3eb13fd5e246791bdd207ef18a68771f7e44d329ff9dee6d085c1785d4cd", size = 200176 },
+    { url = "https://files.pythonhosted.org/packages/36/e7/6624cc6ab23e408fbf220194aaf31c6f271dd2e9455d7a66fe24255dbd79/flip_evaluator-1.6.0.1-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:5703662d236c175469290534737e9554437ee46de8058f9a6fdfb64b067c30e8", size = 188901 },
+    { url = "https://files.pythonhosted.org/packages/eb/e3/f285578a9048725939bc64922eb9924dccba5cb4d416eb93fc494749c6b8/flip_evaluator-1.6.0.1-cp312-cp312-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:8f88ce3148d22e0d194b3e08dfb798fc680113eec1d4fcbb4bd967507cd0c6c4", size = 443290 },
+    { url = "https://files.pythonhosted.org/packages/2c/30/2cc711cdb968225fde297eef3833fcb7c74c716512f48f135c1fe7401cd0/flip_evaluator-1.6.0.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:9e795065f0331462eeed2bd85a1bc0bd038edd2fb944fb74d7c64ddca3da03be", size = 413631 },
+    { url = "https://files.pythonhosted.org/packages/68/38/334ec51f43b56276d531d499f2e49d7eecb6849a355c7f659a587bbd1d89/flip_evaluator-1.6.0.1-cp312-cp312-musllinux_1_2_i686.whl", hash = "sha256:e248c471ea518bd5c45f0beee5da3bf2a1ec1b1c51b7a6ad853d00c75f56ea1c", size = 975054 },
+    { url = "https://files.pythonhosted.org/packages/1a/3d/c5b03761a5bdff6b374dd853e5dd17024acf50cb86bc374a0a3d5eb2391b/flip_evaluator-1.6.0.1-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:b85f423835433935789aa43319ceeea6969d7afba8a3be9bf9bc017643b85670", size = 905136 },
+    { url = "https://files.pythonhosted.org/packages/50/4c/e0983817a1d9c1093260077c5bcadbaf6b4782d32c99cb72a5326d78e0d6/flip_evaluator-1.6.0.1-cp312-cp312-win32.whl", hash = "sha256:ad49aae10a59ec7d5b0f4c1a3d99874c96a84a8e407e725330950bc2d8831212", size = 184937 },
+    { url = "https://files.pythonhosted.org/packages/52/ef/0ebceddc9705d1de3da3a6d01a5d7d7a12687bb5376d58ec31ca5c40c60b/flip_evaluator-1.6.0.1-cp312-cp312-win_amd64.whl", hash = "sha256:fd2503ad75d028d8a539397fd389a0b228287a20a0982053350332037e2cdc11", size = 215800 },
+    { url = "https://files.pythonhosted.org/packages/7d/2c/1b8fa4ec0e18659de4af0710c15b74543f4a24c83cc2dee1f9085f58275e/flip_evaluator-1.6.0.1-cp313-cp313-macosx_10_15_x86_64.whl", hash = "sha256:313feac7104d23e7670240b2db835da74327f65a2a3d91a84c79986de89109a7", size = 200176 },
+    { url = "https://files.pythonhosted.org/packages/a1/3c/62dcc0f4948f119414c0df1295dc7acd5d62bf557e21535671cb1a68e812/flip_evaluator-1.6.0.1-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:5fe1614f0a5f85d41e174743520630fb70885869608a5fa929ad7d05839cbe7a", size = 188901 },
+    { url = "https://files.pythonhosted.org/packages/2b/a0/d816464bcca1d2a9f9edbe8b9f19e7697b1e1c801fd4696f2d7547e4ade9/flip_evaluator-1.6.0.1-cp313-cp313-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:a2665e2eebf40d08d666d72d121605a00256c423dc06bce0f9c83890219446f6", size = 443291 },
+    { url = "https://files.pythonhosted.org/packages/6a/4f/74c4c4545c926e13b64beb63d73c0aba2906b2f625486269c0a012a04356/flip_evaluator-1.6.0.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:0d0dc918f8200e17ca4d44d77fb59b107d4c6caf6b423cd054c2f5ba872bc461", size = 413634 },
+    { url = "https://files.pythonhosted.org/packages/83/5d/bae0eecc8eaab832f32710f5c3bb03afb6d321d21dbdfb034e5b1b906a71/flip_evaluator-1.6.0.1-cp313-cp313-musllinux_1_2_i686.whl", hash = "sha256:4e43259d305256ab7c928baa51076239f4a5ea72f1d3563dcc4f5ba305fd5565", size = 975053 },
+    { url = "https://files.pythonhosted.org/packages/49/3a/a925442145a25bf4a44ffd45dd6ce95ecebe0308d61a1d03534c95dc6513/flip_evaluator-1.6.0.1-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:b001a2ece00efd12eb99533434394896769408ee00cc2915a69ea2a3f144ebe2", size = 905137 },
+    { url = "https://files.pythonhosted.org/packages/58/43/c9d65ef727e6c5f5ecd34ca465eb361f4dfd2d7e042251e4b4052b76ba4d/flip_evaluator-1.6.0.1-cp313-cp313-win32.whl", hash = "sha256:47401f2e5ae0173607d31f1b72d593e5ec1f04f00204ea280735a47d491e5413", size = 184941 },
+    { url = "https://files.pythonhosted.org/packages/c1/9f/216c4d53efe0bddc832f10ef805c370cf0f180378d548330d9d16a617b5d/flip_evaluator-1.6.0.1-cp313-cp313-win_amd64.whl", hash = "sha256:951ab1f1f9bb6cd3890b37f6cf0ae30e1e43b1eb0468a795926556dc406ddafe", size = 215800 },
+]
+
+[[package]]
 name = "fonttools"
 version = "4.56.0"
 source = { registry = "https://pypi.org/simple" }
@@ -2091,6 +2115,7 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "brisque" },
+    { name = "flip-evaluator" },
     { name = "imblearn" },
     { name = "ipykernel" },
     { name = "jupyter" },
@@ -2113,6 +2138,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "brisque", specifier = ">=0.0.16" },
+    { name = "flip-evaluator", specifier = ">=1.6.0.1" },
     { name = "imblearn", specifier = ">=0.0" },
     { name = "ipykernel", specifier = ">=6.29.5" },
     { name = "jupyter", specifier = ">=1.1.1" },
