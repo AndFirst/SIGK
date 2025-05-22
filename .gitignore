@@ -175,3 +175,5 @@ cython_debug/
 *pth
 *exr
 *npz
+*.jpg
+*.jpeg
