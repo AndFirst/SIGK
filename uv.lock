@@ -1789,6 +1789,18 @@ wheels = [
 ]
 
 [[package]]
+name = "pytorch-msssim"
+version = "1.0.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "torch" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/69/43/fd181aef46e96ed025f5056efa1c45e63c93d377fbe7ea784a21ce058d03/pytorch_msssim-1.0.0.tar.gz", hash = "sha256:53273f03ce5c435f706f49feb5110a8afe90b2519484b0fe0df9639670106d0b", size = 10113 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/e2/8c/856047f955acc30179e9255fdc488059ca22f0938519523d53494f7cfee8/pytorch_msssim-1.0.0-py3-none-any.whl", hash = "sha256:0b4b7bbf7035fe9dc8084244237aac13b1f104852c45b63a7e9fab4363bede54", size = 7744 },
+]
+
+[[package]]
 name = "pytz"
 version = "2025.2"
 source = { registry = "https://pypi.org/simple" }
@@ -2128,6 +2140,7 @@ dependencies = [
     { name = "pdfkit" },
     { name = "pip" },
     { name = "pyrr" },
+    { name = "pytorch-msssim" },
     { name = "pywavefront" },
     { name = "scikit-image" },
     { name = "torch" },
@@ -2151,6 +2164,7 @@ requires-dist = [
     { name = "pdfkit", specifier = ">=1.0.0" },
     { name = "pip", specifier = ">=25.0.1" },
     { name = "pyrr", specifier = ">=0.10.3" },
+    { name = "pytorch-msssim", specifier = ">=1.0.0" },
     { name = "pywavefront", specifier = ">=1.3.3" },
     { name = "scikit-image", specifier = ">=0.25.2" },
     { name = "torch", specifier = ">=2.6.0" },
